@@ -1,0 +1,19 @@
+CREATE TABLE MyDbEntity (
+    id INTEGER NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL
+);
+
+
+getAllPersons:
+SELECT *
+FROM MyDbEntity;
+
+insertPerson:
+INSERT
+INTO MyDbEntity
+VALUES (?,?,?);
+
+deleteById:
+DELETE FROM MyDbEntity
+WHERE id = :id;
