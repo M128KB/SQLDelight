@@ -5,7 +5,7 @@ which is read using Kotlin Coroutines and Kotlin Flow. Dependencies are injected
 
 **To use SQLDelight in a simple implementation, you can follow these steps:**
 
-1- Add the SQLDelight Gradle plugin to your project. \n
+1- Add the SQLDelight Gradle plugin to your project.
 2- Create a .sq file with your SQL statements.
 3- Create a Database class with a Schema object.
 4- Provide a SqlDriver instance.
